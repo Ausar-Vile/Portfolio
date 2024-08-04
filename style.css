@@ -1,0 +1,51 @@
+h1 { 
+    display: block; 
+    color: rgb(42, 95, 77); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: bold;
+}
+.parag { 
+    color: rgb(220, 171, 96);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head {
+    color: rgb(102, 66, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-variant: inherit;
+    font-weight: 900;
+    border: thin;
+}
+.container {
+    color: rgb(41, 79, 114);
+    margin: px 0px 0px 150px;
+    border:thin;
+    border-color: rgb(153, 41, 41);
+    padding: 25px;
+    background-color: rgb(220, 171, 96);
+    text-align: center;
+    background-image: url(CSS_image.png);
+    width: 500px;
+    height: 230px;
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(47, 90, 77);
+}
+body {
+    background-color: rgb(88, 172, 178);
+}
+#grad {
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(153, 41, 41),
+        rgb(220, 171, 96)
+
+    );
+    color: rgb(220, 171, 96) ;
+}
+
